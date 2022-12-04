@@ -1,4 +1,4 @@
-import App from './app'
+import { app } from './app'
 
 
-App.application.listen(3000, () => console.log('listening on 3000'))
+app.application.listen(3000, () => console.log('listening on 3000'))

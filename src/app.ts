@@ -17,4 +17,4 @@ class App {
     }
 }
 
-export default new App()
+export const app = new App()
