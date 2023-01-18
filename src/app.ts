@@ -1,6 +1,6 @@
 import Express from 'express'
 import cors from 'cors'
-import { router } from './routes'
+import { router } from '@/routes'
 
 class App {
     private readonly _application: any

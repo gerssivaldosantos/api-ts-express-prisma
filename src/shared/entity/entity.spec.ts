@@ -1,4 +1,4 @@
-import {Entity} from "./entity";
+import {Entity} from "@/shared/entity/entity";
 
 class Test extends Entity {
     constructor(id: string | undefined) {
