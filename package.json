@@ -6,7 +6,7 @@
   "author": "gerssivaldo <canalandows@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
+    "dev": "ts-node src/server.ts",
     "test": "jest"
   },
   "devDependencies": {
