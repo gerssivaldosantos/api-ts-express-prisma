@@ -3,7 +3,7 @@ import cors from 'cors'
 import { router } from './routes'
 
 class App {
-    private _application: any
+    private readonly _application: any
 
     constructor() {
         this._application = Express()
